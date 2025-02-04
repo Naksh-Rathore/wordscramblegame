@@ -78,10 +78,13 @@ function checkAns() {
                 wrongSound.play();
 
                 setTimeout(() => {
-                    question.textContent = questions[questionNum].ques;                document.body.style.backgroundColor = "red";
+                    question.textContent = questions[questionNum].ques;                
+                    document.body.style.backgroundColor = "red";
                     document.body.style.backgroundColor = "rgb(217, 217, 217)";
                 }, 1000);
             }
+
+          ans.value = "";
         }
     
         if (questionNum >= questions.length) {
