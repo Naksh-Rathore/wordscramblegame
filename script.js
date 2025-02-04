@@ -4,7 +4,6 @@ const submitBtn = document.querySelector("button");
 
 const correctSound = new Audio("./correct.mp3");
 const wrongSound = new Audio("./wrong.mp3");
-const mouseClickSound = new Audio("./mouse-click.mp3");
 
 const questionsPossible = [{ans: "argentina", ques: "rgnainaet"},
                         {ans: "airplane", ques: "irnaalep"},
