@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(217, 217, 217);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#title {
+    font-size: 48px;
+}
+
+#container {
+    box-shadow: 4px 4px 5px black;
+    background: linear-gradient(#2E3192, #1BFFFF);
+    padding: 25px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 125px;
+    width: 50%;
+    margin-left: 350px;
+}
+
+#question {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#ans {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: red;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: hsl(0, 100%, 60%);
+}
+
+button:active {
+    background-color: hsl(0, 100%, 70%);
+}
